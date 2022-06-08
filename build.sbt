@@ -9,7 +9,7 @@ import BuildUtils._
 import xerial.sbt.Sonatype._
 
 val condaEnvName = "synapseml"
-val sparkVersion = "3.2.0"
+val sparkVersion = "3.2.1"
 name := "synapseml"
 ThisBuild / organization := "com.microsoft.azure"
 ThisBuild / scalaVersion := "2.12.15"
@@ -29,7 +29,7 @@ val coreDependencies = Seq(
   "org.scalatest" %% "scalatest" % "3.0.5" % "test")
 val extraDependencies = Seq(
   "org.scalactic" %% "scalactic" % "3.0.5",
-  "io.spray" %% "spray-json" % "1.3.2",
+  "io.spray" %% "spray-json" % "1.3.5",
   "com.jcraft" % "jsch" % "0.1.54",
   "org.apache.httpcomponents" % "httpclient" % "4.5.6",
   "org.apache.httpcomponents" % "httpmime" % "4.5.6",
