@@ -68,7 +68,12 @@ object RESTHelpers {
           }).get
 
           val responseBodyOpt = Try(IOUtils.toString(response.getEntity.getContent, "UTF-8")).getOrElse("")
-
+          val errorContent = Source.fromInputStream(responseBodyOpt)
+            .mkString
+            .parseJson
+           .asJsObject()
+           .fields("error")
+           .asJsObject()
           throw new RuntimeException(
             s"Failed: " +
               s"\n\t response: $response " +
