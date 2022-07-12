@@ -27,7 +27,7 @@
     "node": "^16.14",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-player": "^2.7.2",
+    "react-player": "^2.10.1",
     "reading-time": "^1.2.0",
     "rehype-katex": "4",
     "remark-math": "3"
