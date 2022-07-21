@@ -20,7 +20,7 @@
     "@docusaurus/theme-classic": "2.0.0-beta.18",
     "@docusaurus/theme-search-algolia": "2.0.0-beta.18",
     "ansi-html-community": "^0.0.8",
-    "caniuse-lite": "^1.0.30001359",
+    "caniuse-lite": "^1.0.30001361",
     "classnames": "^2.2.6",
     "got": "^11.8.5",
     "hast-util-is-element": "1.1.0",
