@@ -15,8 +15,8 @@
     "audit:fix": "npx yarn-audit-fix"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.18",
-    "@docusaurus/preset-classic": "2.0.0-beta.18",
+    "@docusaurus/core": "3.8.0",
+    "@docusaurus/preset-classic": "3.8.0",
     "@docusaurus/theme-classic": "2.0.0-beta.18",
     "@docusaurus/theme-search-algolia": "2.0.0-beta.18",
     "ansi-html-community": "^0.0.8",
